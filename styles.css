@@ -59,3 +59,25 @@ body {
     text-transform: uppercase;
     margin:0 20px 15px;
 }
+
+.board-button{
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 12px 20px;
+    color: var(--medium-grey);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.board-button:hover:not(.active){
+    background-color: var(--primary-purple);
+    cursor: pointer;
+}
