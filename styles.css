@@ -51,3 +51,11 @@ body {
     height: 25px;
     width: auto;
 }
+
+.boards-section h4{
+    font-size: 12px;
+    color: var(--medium-grey);
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin:0 20px 15px;
+}
