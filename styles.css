@@ -119,3 +119,10 @@ body {
     gap: 24px;
     overflow-x: auto;
 }
+
+.column{
+    flex-shrink: 0;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
