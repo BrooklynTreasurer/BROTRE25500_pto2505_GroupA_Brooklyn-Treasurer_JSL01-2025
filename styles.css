@@ -1,5 +1,8 @@
+
+
 body {
     display: flex;
+    margin: 0;
     flex-direction: row;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
