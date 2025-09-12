@@ -139,3 +139,14 @@ body {
     height: 15px;
     border-radius: 50%;
 }
+
+.todo-dot{
+    background-color: var(--dot-todo);
+}
+.doing-dot{
+    background-color: var(--dot-doing);
+}
+.done-dot{
+    background-color: var(--dot-done);
+}
+
