@@ -126,3 +126,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.column-header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
