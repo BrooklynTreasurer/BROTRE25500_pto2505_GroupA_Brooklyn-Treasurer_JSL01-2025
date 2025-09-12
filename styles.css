@@ -133,3 +133,9 @@ body {
     gap: 12px;
     margin-bottom: 24px;
 }
+
+.column-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
