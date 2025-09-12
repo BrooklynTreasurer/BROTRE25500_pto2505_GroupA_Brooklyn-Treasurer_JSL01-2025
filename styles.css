@@ -179,3 +179,21 @@ body {
     transform: translateY(-2px);
 }
 
+/* scrollbar styles */
+.columns-container::-webkit-scrollbar {
+     height: 8px; 
+    }
+
+.columns-container::-webkit-scrollbar-track {
+    background: var(--light-grey);
+    border-radius: 10px; 
+    }
+    
+.columns-container::-webkit-scrollbar-thumb {
+    background: var(--medium-grey); 
+    border-radius: 10px; 
+    }
+
+.columns-container::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-grey); 
+    }
