@@ -42,14 +42,24 @@ body {
     flex-shrink: 0;
 }
 
+.boards h4{
+    font-size: 11px;
+    color: var(--medium-grey);
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin:0 20px 15px;
+    margin-bottom: 22px;
+}
+
 .logo{
     padding:0 20px;
     margin-bottom: 30px;
 }
 
 .kanban-logo{
-    height: 25px;
+    height: 28px;
     width: auto;
+    padding-top: 20px;
 }
 
 .boards-section h4{
@@ -61,12 +71,12 @@ body {
 }
 
 .board-button{
-    background-color: transparent;
+    background-color: var(--primary-purple);
     border: none;
     text-align: left;
-    width: 100%;
+    width: 90%;
     padding: 12px 20px;
-    color: var(--medium-grey);
+    color: var(--white);
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
@@ -170,6 +180,7 @@ body {
     border-radius: 8px;
     box-shadow:0px 4px 6px rgba(0,0,0,0.1);
     font-size: 15px;
+    font-weight: 700;
     color: var(--black);
     cursor: grab;
     transition: transform 0.1s ease-in-out;
