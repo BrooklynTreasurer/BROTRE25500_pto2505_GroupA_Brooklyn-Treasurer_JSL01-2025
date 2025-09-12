@@ -94,3 +94,14 @@ body {
     flex-direction: column;
     background-color: var(--light-grey);
 }
+
+.main-header{
+    background-color: var(--white);
+    padding: 20px 30px;
+    border-bottom: 1px solid var(--lines-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+}
+
