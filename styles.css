@@ -18,5 +18,8 @@ body {
     display: flex;
     margin: 0;
     flex-direction: row;
+    background-color: var(--light-grey);
+    color: var(--black);
     font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow: hidden;
 }
