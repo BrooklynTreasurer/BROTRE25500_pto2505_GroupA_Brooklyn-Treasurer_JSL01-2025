@@ -150,3 +150,10 @@ body {
     background-color: var(--dot-done);
 }
 
+.column-header h4{
+    font-size: 12px;
+    color: var(--medium-grey);
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin: 0;
+}
