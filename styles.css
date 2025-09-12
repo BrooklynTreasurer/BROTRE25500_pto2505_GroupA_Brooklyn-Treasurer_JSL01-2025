@@ -105,3 +105,10 @@ body {
     min-height: 60px;
 }
 
+.main-header h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--black);
+}
+
