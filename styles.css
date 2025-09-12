@@ -4,6 +4,7 @@
     --black: #000112;
     --dark-grey: #3E3F4E;
     --medium-grey: #828FA3;
+    --lines-light: #E4EBFA;
     --light-grey: #F4F7FD;
     --white: #FFFFFF;
     --red: #EA5555;
@@ -30,3 +31,13 @@ body {
     height: 100vh;
 }
 
+/* side bar styling */
+.sidebar{
+    width: 250px;
+    background-color: var(--white);
+    padding: 20px 0;
+    border-right: 1px solid var(--lines-light);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
