@@ -46,3 +46,8 @@ body {
     padding:0 20px;
     margin-bottom: 30px;
 }
+
+.kanban-logo{
+    height: 25px;
+    width: auto;
+}
