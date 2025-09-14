@@ -209,17 +209,13 @@ body {
     background: var(--dark-grey); 
     }
 
+/* =========================
+   RESPONSIVE MOBILE STYLES
+========================= */
 @media screen and (max-width: 768px) {
- body {
-        flex-direction: column;
-    }
-
+    /* Hide sidebar, show top bar instead */
     .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid var(--lines-light);
-        justify-content: center;
-        padding: 10px;
+        display: none;
     }
 
     .kanban-container {
@@ -228,23 +224,46 @@ body {
     }
 
     .main-header {
-        padding: 10px 15px;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .main-header h2 {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .main-header h2::after {
+        content: "▾"; /* Fake dropdown arrow */
+        font-size: 16px;
+        color: var(--medium-grey);
     }
 
     .columns-container {
         flex-direction: column;
         padding: 16px;
         gap: 16px;
+        overflow-x: hidden;
     }
 
     .column {
-        width: 220px;
+        width: 100%;
     }
 
     .task-card {
-        padding: 18px 12px;
         font-size: 14px;
+        padding: 18px 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-header h2 {
+        font-size: 18px;
     }
 
-    
+    .task-card {
+        font-size: 13px;
+        padding: 15px 10px;
+    }
 }
