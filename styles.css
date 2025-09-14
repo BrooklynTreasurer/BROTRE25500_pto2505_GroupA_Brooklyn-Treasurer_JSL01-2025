@@ -209,17 +209,10 @@ body {
     background: var(--dark-grey); 
     }
 
-/* =========================
-   RESPONSIVE MOBILE STYLES
-========================= */
+
 @media screen and (max-width: 768px) {
     .sidebar {
         display: none;
-    }
-
-    .kanban-container {
-        flex-direction: column;
-        height: auto;
     }
 
     .main-header {
@@ -228,16 +221,26 @@ body {
     }
 
     .main-header h2 {
-        font-size: 0; /* Hide text visually */
+        font-size: 0;
         position: relative;
     }
 
     .main-header h2::before {
-        content: url('assets/logo-light.svg'); /* Use your logo path */
+        content: "";
         display: inline-block;
-        height: 28px;
-        width: auto;
+        background-image: url('assets/logo-light.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 120px; 
+        height: 40px;  
         vertical-align: middle;
+    }
+
+    .main-header h2::after {
+        content: "▾";
+        font-size: 16px;
+        color: var(--medium-grey);
+        margin-left: 6px;
     }
 
     .columns-container {
@@ -252,13 +255,8 @@ body {
     }
 
     .task-card {
-        width: 90%;
         font-size: 14px;
         padding: 18px 12px;
-    }
-
-    .column-header h4 {
-        font-size: 10px;
     }
 }
 
