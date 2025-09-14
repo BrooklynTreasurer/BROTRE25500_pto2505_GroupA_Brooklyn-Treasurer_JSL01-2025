@@ -1,5 +1,5 @@
 # 📋 Kanban Board Project
-
+# Kanban Board by Brooklyn Treasurer
 A clean and responsive **Kanban board** built with **HTML** and **CSS** to help visualize tasks in different workflow stages (To Do, Doing, Done).  
 This project is designed to look like a professional Kanban tool and is **fully responsive for mobile devices**.
 
