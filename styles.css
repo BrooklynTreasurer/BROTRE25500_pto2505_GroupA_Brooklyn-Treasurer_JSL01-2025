@@ -208,3 +208,43 @@ body {
 .columns-container::-webkit-scrollbar-thumb:hover {
     background: var(--dark-grey); 
     }
+
+@media screen and (max-width: 768px) {
+ body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--lines-light);
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .kanban-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-header {
+        padding: 10px 15px;
+    }
+
+    .columns-container {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .column {
+        width: 220px;
+    }
+
+    .task-card {
+        padding: 18px 12px;
+        font-size: 14px;
+    }
+
+    
+}
