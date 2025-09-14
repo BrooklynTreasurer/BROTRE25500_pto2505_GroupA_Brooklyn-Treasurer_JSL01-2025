@@ -228,15 +228,16 @@ body {
     }
 
     .main-header h2 {
-        display: flex;
-        align-items: center;
-        gap: 6px;
+        font-size: 0; /* Hide text visually */
+        position: relative;
     }
 
-    .main-header h2::after {
-        content: "▾"; 
-        font-size: 16px;
-        color: var(--medium-grey);
+    .main-header h2::before {
+        content: url('assets/logo-light.svg'); /* Use your logo path */
+        display: inline-block;
+        height: 28px;
+        width: auto;
+        vertical-align: middle;
     }
 
     .columns-container {
@@ -251,6 +252,7 @@ body {
     }
 
     .task-card {
+        width: 90%;
         font-size: 14px;
         padding: 18px 12px;
     }
@@ -262,7 +264,7 @@ body {
 
 @media screen and (max-width: 480px) {
     .main-header h2 {
-        font-size: 18px;
+        font-size: 0px;
     }
 
     .task-card {
